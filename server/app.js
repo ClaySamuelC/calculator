@@ -8,4 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// client path
+app.use('/', express.static(path.join(__dirname, '../client/dist')));
+
 module.exports = app;
