@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/ClaySamuelC/calculator#readme",
   "dependencies": {
+    "babel-loader": "^8.2.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
     "webpack": "^5.24.2"
   }
 }
